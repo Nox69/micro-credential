@@ -1,0 +1,15 @@
+spring.application.name: Micro Credential
+
+management:
+  endpoint:
+    info:
+      enabled: true	
+  health:
+    defaults:
+      enabled: true
+ 
+
+server.port: 8443
+
+server.servlet.context-path: /v1
+  
